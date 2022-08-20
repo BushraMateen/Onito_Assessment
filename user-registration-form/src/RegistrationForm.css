@@ -1,0 +1,109 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.personal_details{
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    display: inline-flex;
+}
+label{
+    padding-right: 6px;
+    padding-left: 12px;
+}
+.birth{
+    display: inline-flex;
+}
+.sex{
+    display: inline-flex;
+}
+.mobile{
+    display: inline;
+}
+.govt-id{
+    display: inline-flex;
+}
+.contact_details{
+    display: flex;
+    flex-direction: row;
+}
+.guardian{
+    display: inline-flex;
+}
+.email{
+    display: inline-flex;
+}
+.emergency{
+    display: inline-flex;
+}
+/* input{
+    padding: 5px;
+} */
+.address_details{
+    display: flex;
+    flex-direction: row;
+}
+
+.state{
+    display: inline-flex;
+}
+.city{
+    display: inline-flex;
+}
+.country{
+    display: inline-flex;
+}
+.pincode{
+    display: inline-flex;
+}
+.other_details{
+    display: flex;
+    flex-direction: row;
+}
+.occupation{
+    display: inline-flex;
+}
+.religion{
+    display: inline-flex;
+}
+.maritial-status{
+    display: inline-flex;
+}
+.blood-group{
+    display: inline-flex;
+}
+.nationality{
+    display: inline-flex;
+}
+select:invalid { 
+    color: gray; 
+}
+button {
+    margin-top: 30px;
+    margin-left: 15px;
+    padding: 8px;
+    width: 23%;
+    height: 45px;
+    background-color: #1500f596;
+    border: 1px solid #1500f561;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgb(0 0 0 / 10%);
+    transition: all 0.1s ease;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.24);
+    margin-top: 5%;
+    background: hwb(238deg 52% 0% / 38%);
+    border-radius: 6%;
+  }
